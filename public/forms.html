@@ -9,10 +9,11 @@
 </head>
 <body>
 <h1>Forms Demo</h1>
-<form>
-  <input name="login" placeholder="Login">
-  <input name="password" type="password" placeholder="Password">
-  <button>Login</button>
+<form action="http://localhost:9999" method="post" enctype="multipart/form-data">
+  <input name="title">
+  <input name="value">
+  <input type="file" name="image">
+  <button>Отправить</button>
 </form>
 </body>
 </html>
